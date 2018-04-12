@@ -1,13 +1,12 @@
 ---
 # Home page
 layout: default
-
-#{% include intro.html %}
-#{% include background.html %}
-#{% include skills.html %}
-#{% include experience.html %}
-#{% include features.html %}
-#{% include projects.html %}
-#{% include footer.html %}
 ---
-<h6>Page under construction.</h6>
+
+{% include intro.html %}
+{% include background.html %}
+{% include skills.html %}
+{% include experience.html %}
+{% include features.html %}
+{% include projects.html %}
+{% include footer.html %}

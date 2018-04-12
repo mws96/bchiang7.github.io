@@ -1,2 +1,2 @@
 # mws96.github.io
-Personal website.
+Personal portfolio based on Brittany Chiang's.
