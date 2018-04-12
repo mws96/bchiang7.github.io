@@ -1,0 +1,33 @@
+.features {
+    a:after {
+        display: none;
+    }
+    .feature {
+        display: flex;
+        margin-bottom: 100px;
+        margin-left: -5%;
+        width: 125%;
+        &-pic {
+            max-width: 700px;
+            overflow: visible;
+            margin: 0;
+            a {
+                display: block;
+            }
+            img {
+                width: 100%;
+                max-width: 100%;
+                vertical-align: bottom;
+            }
+        }
+        &-caption {
+            width: 125px;
+            flex-shrink: 0;
+            margin-left: 30px;
+        }
+        p {
+            font-size: 0.85rem;
+            line-height: 1.3;
+        }
+    }
+}

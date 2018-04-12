@@ -1,0 +1,30 @@
+.projects {
+    .project {
+        max-width: 600px;
+        margin-bottom: 50px;
+        &-name {
+            margin-bottom: 10px;
+            font-weight: 600;
+        }
+        p {
+            font-size: 0.9rem;
+            margin-bottom: 20px;
+        }
+        &-tech {
+            &-item {
+                display: inline-block;
+                margin: 3px 3px 3px 0;
+                font-size: 0.75rem;
+                font-weight: 500;
+                padding: 2px 7px;
+                border-radius: 3px;
+                color: $scarlet;
+                border: 1px solid $scarlet;
+                background: transparent;
+                &:first-of-type {
+                    margin-left: 0;
+                }
+            }
+        }
+    }
+}

@@ -1,34 +1,14 @@
-- company: Apple Music
-  url: https://www.apple.com/music/
-  time: July - Dec 2017
-  position: UI Engineer Co-op
+- company: Carbon Black
+  url: https://www.carbonblack.com/
+  time: Jun - Aug 2017
+  position: Software Engineering Intern
 
-- company: Scout
-  url: https://web.northeastern.edu/scout/
-  time: Jan - June 2017
-  position: Studio Developer
+- company: University of Massachusetts
+  url: https://www.umass.edu
+  time: Sep 2015 - May 2018
+  position: Undergraduate Course Assistant <br /> (Software Engineering, Data Structures)
 
-- company: Starry
-  url: https://starry.com/
-  time: July - Dec 2016
-  position: Software Engineer Co-op
-
-- company: Northeastern University
-  url: http://www.ccis.northeastern.edu/
-  time: Jan - May 2016
-  position: HCI Teaching Assistant
-
-- company: NU Women in Tech
-  url: http://nuwit.ccs.neu.edu/
-  time: Jan 2016 - May 2017
-  position: President & Web Chair
-
-- company: MullenLowe U.S.
-  url: https://us.mullenlowe.com/
-  time: July - Dec 2015
-  position: Creative Technologist Co-op
-
-- company: Northeastern University
-  url: http://www.ccis.northeastern.edu/
-  time: Mar - May 2015
-  position: HCI Research Assistant
+- company: University of Massachusetts
+  url: https://www.umass.edu
+  time: Sep 2016 - May 2018
+  position: Resident Assistant

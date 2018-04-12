@@ -1,0 +1,12 @@
+// Colors
+$black: #220901;
+$dark-grey: #444452;
+$red: #621708;
+$scarlet: #941b0c;
+$orange: #bc3908;
+$yellow: #f6aa1c;
+$white: #ffffff;
+
+@mixin transition {
+    transition: all 0.2s ease-in-out;
+}

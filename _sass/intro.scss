@@ -1,0 +1,52 @@
+.intro {
+    padding: 120px 100px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    max-width: 1440px;
+    margin: 0 auto;
+    &-block {
+        display: inline-block;
+    }
+    &-hello, &-tagline {
+        font-size: 2.5rem;
+    }
+    &-hello {
+        font-weight: 300;
+    }
+    &-tagline {
+        font-weight: 300;
+        max-width: 700px;
+        .name {
+            font-weight: 700;
+        }
+    }
+    &-contact {
+        font-size: 1.25rem;
+        font-weight: 400;
+        .highlight-link {
+            @include transition;
+            font-weight: 400;
+            text-decoration: none;
+            display: inline-block;
+            padding: 2px 3px;
+            box-shadow: inset 0 -3px 0 $red;
+            &:hover {
+                box-shadow: inset 0 -33px 0 0 $red;
+                color: $white;
+            }
+        }
+    }
+    .me {
+        display: flex;
+        @media only screen and (max-width: 1250px) {
+            display: none;
+        }
+        max-width: 300px;
+        overflow: visible;
+        margin: 0;
+        float: right;
+        vertical-align: bottom;
+    }
+}

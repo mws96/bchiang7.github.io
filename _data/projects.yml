@@ -1,0 +1,33 @@
+- title: Twemoji
+  url: https://github.com/akarle/twemoji
+  description: Group project for natural language processing class which aimed to assign an emoji to a given tweet based on sentiment analysis (originally proposed as a task in SemEval-2018). Used a combination of text preprocessing techniques and different log linear models to surpass baseline performance.
+  tech:
+      - item: Python
+      - item: Machine Learning
+      - item: Natural Language Processing
+
+- title: DataDash
+  url: https://github.com/mbdtui/DataDash
+  description: Worked with a team of ten in a software engineering course to develop a web app to serve as a dashboard for Liberty Mutual's data warehousing department. I was primarily in charge of constructing the MongoDB data layer, but also served as one of the main code reviewers and wrote much of the documentation.
+  tech:
+      - item: JavaScript
+      - item: Node
+      - item: MongoDB
+      - item: React
+      - item: Express
+
+- title: RememberTHIS
+  url: #
+  description: iOS app to replace those stacks of index cards you use when learning a new language. Users could create virtual collections of index cards with words, definitions, etc. and then practice or test themselves.
+  tech:
+      - item: Objective-C
+      - item: iOS
+      - item: Cocoa Touch
+
+- title: JotTHIS
+  url: #
+  description: iOS app which enabled users to quickly jot down ideas and send them as emails to themselves. Received over a thousand downloads while it was on the App Store.
+  tech:
+      - item: Objective-C
+      - item: iOS
+      - item: Cocoa Touch

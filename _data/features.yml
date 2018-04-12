@@ -1,0 +1,14 @@
+- title: Branch
+  image: images/branch-feature.png
+  url: https://github.com/mws96/Branch
+  description: Branch is a simple, reflex-based iOS game designed with an emphasis on minimalism and low-stakes fun. Designed using SpriteBuilder.
+
+- title: JudgeMental
+  image: images/judgemental-feature.png
+  url: https://github.com/akarle/judge-mental
+  description: JudgeMental utilizes natural language processing to literally judge books by their covers. A HackUMass 2017 project by Alex Karle and myself.
+
+- title: iAndover
+  image: images/iandover-feature.png
+  url: #
+  description: iAndover was an all-in-one application for students at my high school. It provided access to lunch menus, events and athletic schedules, a campus map, and much more.

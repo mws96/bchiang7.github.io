@@ -1,0 +1,20 @@
+<section class="section features">
+    <div class="section-title">Featured Projects</div>
+    <div class="section-content">
+        {% for feature in site.data.features %}
+        <div class="feature">
+            <figure class="feature-pic">
+                <a href="{{ feature.url }}" target="_blank">
+                    <img src="{{ site.baseurl }}{{ feature.image }}" alt="{{ feature.title }}">
+                </a>
+            </figure>
+            <figcaption class="feature-caption">
+                <div class="feature-name">
+                    <a href="{{ feature.url }}" target="_blank">{{ feature.title }}</a>
+                </div>
+                <p>{{ feature.description }}</p>
+            </figcaption>
+        </div>
+        {% endfor %}
+    </div>
+</section>
