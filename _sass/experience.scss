@@ -7,12 +7,18 @@
         .time-place {
             display: flex;
             justify-content: space-between;
+            @include mobile {
+                display: block;
+            }
         }
         &-company {
             font-weight: 600;
         }
         &-time {
             font-size: 0.9rem;
+            @include mobile {
+                font-size: 0.8rem;
+            }
         }
     }
     .arrow-link {

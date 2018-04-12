@@ -6,11 +6,35 @@
     justify-content: space-around;
     max-width: 1440px;
     margin: 0 auto;
+    @include weird-medium {
+        padding: 120px 70px;
+    }
+    @include phablet {
+        padding: 120px 50px;
+    }
+    @include mobile {
+        padding: 70px 50px;
+    }   
     &-block {
         display: inline-block;
     }
     &-hello, &-tagline {
         font-size: 2.5rem;
+        @include desktop {
+            font-size: 2.25rem;
+        }
+        @include tablet {
+            font-size: 2rem;
+        }
+        @include phablet {
+            font-size: 1.75rem;
+        }
+        @include small-mobile {
+            font-size: 1.5rem;
+        }
+        @include tiny-mobile {
+            font-size: 1.4rem;
+        }       
     }
     &-hello {
         font-weight: 300;
@@ -25,6 +49,9 @@
     &-contact {
         font-size: 1.25rem;
         font-weight: 400;
+        @include phablet {
+            font-size: 1rem;
+        }       
         .highlight-link {
             @include transition;
             font-weight: 400;
